@@ -1,8 +1,8 @@
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Build Example corne nice_nano_v2 nice_view'
-on: workflow_dispatch
+name: 'Build corne'
+on: push
 jobs:
   build:
     uses: ./.github/workflows/main.yml
