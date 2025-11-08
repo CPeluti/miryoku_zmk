@@ -8,9 +8,9 @@
 
 // FPS friendly tap layer
 #define MIRYOKU_LAYER_GAME \
-&kp TAB,           &kp Q,             &kp W,             &kp E,             &kp R,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
-&kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
-&kp LCTRL,         &kp Z,             &kp X,             &kp C,             &kp V,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
+&kp Q,             &kp W,             &kp E,             &kp R,             &kp T               &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
+&kp A,             &kp S,             &kp D,             &kp F,             &kp G               &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
+&kp Z,             &kp X,             &kp C,             &kp V,             &kp B               &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
 U_NP,              U_NP,              &kp LALT,          &kp SPC,           &mo U_GAMENUM,     &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_LAYER_GAMENUM \
@@ -25,10 +25,10 @@ U_NP,              U_NP,              &to U_BASE,        &kp SPC,           &non
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-XXX  K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &u_to_U_GAME \
-XXX  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
-&kp LC(LS(LA(LGUI)))  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp LC(LS(LA(LGUI))) \
-               K32  K33  K34       K35  K36  K37
+&kp ESC,       K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &u_to_U_GAME \
+&kp LSHFT,     K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
+&kp LCTRL,     K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp LC(LS(LA(LGUI))) \
+                         K32  K33  K34       K35  K36  K37
 
 #define MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,   "Base") \
