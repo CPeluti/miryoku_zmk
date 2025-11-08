@@ -2,6 +2,8 @@
 // https://github.com/manna-harbour/miryoku
 
 //#define MIRYOKU_KLUDGE_DOUBLETAPBOOT
+#define MIRYOKU_ALPHAS_COLEMAK
+
 #define MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,   "Base") \
 MIRYOKU_X(EXTRA,  "Extra") \
