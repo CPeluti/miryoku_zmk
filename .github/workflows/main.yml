@@ -308,8 +308,8 @@ jobs:
           if [ "$MIRYOKU_DEBUG" = 'MIRYOKU_DEBUG_TRUE' ]
           then
             set -x
-            #west_debug='-v'
-            #west_build_debug='-t rom_report -t ram_report'
+            west_debug='-v'
+            west_build_debug='-t rom_report -t ram_report'
           fi
 
           echo "::group::setup"
