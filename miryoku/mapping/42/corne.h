@@ -20,6 +20,7 @@ U_NP,               U_NP,              &kp LALT,          &kp SPC,           &mo
 &kp Z,              &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp B,             &kp BSLH,          &kp F1,            &kp F2,            &kp F3,            &kp GRAVE,        \
 U_NP,               U_NP,              &to U_BASE,        &kp SPC,           &none,             &kp MINUS,         &kp NUM_0,         &kp DOT,           U_NP,              U_NP
 
+#define MIRYOKU_LAYERMAPPING_GAMENUM MIRYOKU_MAPPING
 #define MIRYOKU_LAYERMAPPING_CORNE( \
      K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
      K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
@@ -85,4 +86,3 @@ MIRYOKU_X(GAMENUM,"GNum")
 #endif
 
 #define MIRYOKU_MAPPING MIRYOKU_LAYOUTMAPPING_CORNE
-#define MIRYOKU_LAYERMAPPING_GAMENUM MIRYOKU_MAPPING
