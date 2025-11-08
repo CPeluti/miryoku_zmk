@@ -3,7 +3,6 @@
 
 //#define MIRYOKU_KLUDGE_DOUBLETAPBOOT
 #define MIRYOKU_ALPHAS_COLEMAK
-#define MIRYOKU_KLUDGE_SOFT_OFF
 
 #define XXX &none
 
@@ -31,6 +30,19 @@ XXX  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
 XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
                K32  K33  K34       K35  K36  K37
 
+#define MIRYOKU_LAYERMAPPING_GAME( \
+     K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
+     K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
+     K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
+     N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
+) \
+XXX  K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &u_to_U_BASE \
+XXX  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
+XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
+               K32  K33  K34       K35  K36  K37
+
+#define MIRYOKU_LAYERMAPPING_GAMENUM MIRYOKU_MAPPING
+
 #define MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,   "Base") \
 MIRYOKU_X(EXTRA,  "Extra") \
@@ -44,19 +56,6 @@ MIRYOKU_X(SYM,    "Sym") \
 MIRYOKU_X(FUN,    "Fun") \
 MIRYOKU_X(GAME,   "Game") \
 MIRYOKU_X(GAMENUM,"GNum")
-
-#define MIRYOKU_LAYERMAPPING_GAME( \
-     K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
-     K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
-     K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
-     N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
-) \
-XXX  K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &u_to_U_BASE \
-XXX  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
-XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
-               K32  K33  K34       K35  K36  K37
-
-#define MIRYOKU_LAYERMAPPING_GAMENUM MIRYOKU_MAPPING
 
 #define U_BASE        0
 #define U_EXTRA       1
