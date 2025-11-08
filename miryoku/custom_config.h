@@ -14,9 +14,9 @@
 U_NP,              U_NP,              &kp LALT,          &kp SPC,           &mo U_GAMENUM,     &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_LAYER_GAMENUM \
-&kp ESC,           &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp T,             &kp LBKT,          &kp F7,            &kp F8,            &kp F9,            &kp RBKT,         \
-&kp LSHFT,         &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         &kp G,             &kp EQL,           &kp F4,            &kp F5,            &kp F6,            &kp SEMI,         \
-&kp LCTRL,         &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp B,             &kp BSLH,          &kp F1,            &kp F2,            &kp F3,            &kp GRAVE,        \
+&kp Q,             &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp T,             &kp LBKT,          &kp F7,            &kp F8,            &kp F9,            &kp RBKT,         \
+&kp A,             &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         &kp G,             &kp EQL,           &kp F4,            &kp F5,            &kp F6,            &kp SEMI,         \
+&kp Z,             &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp B,             &kp BSLH,          &kp F1,            &kp F2,            &kp F3,            &kp GRAVE,        \
 U_NP,              U_NP,              &to U_BASE,        &kp SPC,           &none,             &kp MINUS,         &kp NUM_0,         &kp DOT,           U_NP,              U_NP
 
 #define MIRYOKU_LAYERMAPPING_BASE( \
@@ -25,9 +25,9 @@ U_NP,              U_NP,              &to U_BASE,        &kp SPC,           &non
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-&kp ESC,       K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &u_to_U_GAME \
-&kp LSHFT,     K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
-&kp LCTRL,     K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp LC(LS(LA(LGUI))) \
+&kp ESC        K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &u_to_U_GAME \
+&kp LSHFT      K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
+&kp LCTRL      K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp LC(LS(LA(LGUI))) \
                          K32  K33  K34       K35  K36  K37
 
 #define MIRYOKU_LAYER_LIST \
