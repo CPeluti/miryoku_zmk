@@ -69,3 +69,5 @@ MIRYOKU_X(GAMENUM,"GNum")
 #define U_FUN         9
 #define U_GAME       10
 #define U_GAMENUM    11
+
+#define MIRYOKU_MAPPING MIRYOKU_LAYOUTMAPPING_CORNE
