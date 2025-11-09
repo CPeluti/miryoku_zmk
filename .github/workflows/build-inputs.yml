@@ -15,7 +15,7 @@ on:
       alphas:
         description: 'alphas'
         required: false
-        default: 'default'
+        default: 'Colemak'
         type: choice
         options:
         - "default"
