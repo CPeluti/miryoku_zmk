@@ -10,5 +10,3 @@ jobs:
     with:
       board: '["nice_nano_v2"]'
       shield: '["corne_left","corne_right"]'
-      alphas: '["Colemak"]'
-      kconfig: '["CONFIG_BT_CTLR_PHY_2M=n"]'
