@@ -1,12 +1,14 @@
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Build Example corne nice_nano_v2 nice_view'
-on: workflow_dispatch
+name: 'Build corne'
+on: push
 jobs:
   build:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
       board: '["nice_nano_v2"]'
-      shield: '["corne_left nice_view_adapter nice_view","corne_right nice_view_adapter nice_view"]'
+      shield: '["corne_left","corne_right"]'
+      alphas: '["Colemak"]'
+      kconfig: '["CONFIG_BT_CTLR_PHY_2M=n"]'
