@@ -2,7 +2,6 @@
 // https://github.com/manna-harbour/miryoku
 
 //#define MIRYOKU_KLUDGE_DOUBLETAPBOOT
-#define MIRYOKU_KLUDGE_SOFT_OFF
 
 #define XXX &none
 
