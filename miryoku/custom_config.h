@@ -7,13 +7,13 @@
 #define XXX &none
 
 // FPS friendly tap layer
-#define MIRYOKU_LAYER_GAME \
+#define MIRYOKU_LAYER_EXTRA \
 &kp Q,              &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
 &kp A,              &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
 &kp Z,              &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
 U_NP,               U_NP,              &kp LALT,          &kp SPC,           &mo U_TAP,         &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
-#define MIRYOKU_LAYER_GAMENUM \
+#define MIRYOKU_LAYER_TAP \
 &kp Q,              &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp T,             &kp LBKT,          &kp F7,            &kp F8,            &kp F9,            &kp RBKT,         \
 &kp A,              &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         &kp G,             &kp EQL,           &kp F4,            &kp F5,            &kp F6,            &kp SEMI,         \
 &kp Z,              &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp B,             &kp BSLH,          &kp F1,            &kp F2,            &kp F3,            &kp GRAVE,        \
